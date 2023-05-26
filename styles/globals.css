@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Josefin Sans Bold";
+  src: url("../assets/fonts/Josefin_Sans/JosefinSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Josefin Sans Regular";
+  src: url(../assets/fonts/Josefin_Sans/JosefinSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Helvetica Now Display Regular";
+  src: url(../assets/fonts/Helvetica_Now_Display/HelveticaNowDisplay-Regular.ttf);
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+body {
+  transition: all 2s ease;
+  transition: transform 2s;
+}
+
+html::-webkit-scrollbar {
+  width: 0.2rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 5rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+section {
+  margin: 100px 0;
+}
+
+footer {
+  margin-top: 200px;
+}
