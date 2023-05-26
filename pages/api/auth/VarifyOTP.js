@@ -1,4 +1,4 @@
-import { auth } from "../../firebase";
+import { auth } from "../../../lib/firebase";
 
 // POST /api/auth/verify
 export default async function handler(req, res) {
